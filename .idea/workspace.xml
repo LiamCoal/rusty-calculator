@@ -11,7 +11,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:constants" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -27,7 +27,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36031e14-3c72-4e40-a50f-cd6e55d4b787" name="Default Changelist" comment="" />
+    <list default="true" id="36031e14-3c72-4e40-a50f-cd6e55d4b787" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,19 +90,16 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo Command.Run rusty-calculator" />
         <item itemvalue="Cargo Command.Run rusty-calculator" />
       </list>
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,6 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596493933048</updated>
       <workItem from="1596493934798" duration="6149000" />
+      <workItem from="1596513702901" duration="2361000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1596498602390</created>
@@ -132,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596502044383</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change readme.md">
+      <created>1596502109426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596502109426</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Remove broken link">
+      <created>1596502169842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596502169842</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +164,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="constants" />
                       </list>
                     </value>
                   </entry>
@@ -167,36 +182,53 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add readme.md." />
     <MESSAGE value="Change readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change readme.md" />
+    <MESSAGE value="Remove broken link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove broken link" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596495127575">
+    <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596514712144">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596495127575" />
+    <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596514712144" />
+    <state x="156" y="127" width="2304" height="1213" key="DiffContextDialog" timestamp="1596502605866">
+      <screen x="56" y="27" width="2504" height="1413" />
+    </state>
+    <state x="156" y="127" width="2304" height="1213" key="DiffContextDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596502605866" />
+    <state x="1041" y="602" width="523" height="269" key="Github.CreatePullRequestDialog" timestamp="1596513777005">
+      <screen x="56" y="27" width="2504" height="1413" />
+    </state>
+    <state x="1041" y="602" width="523" height="269" key="Github.CreatePullRequestDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596513777005" />
     <state x="1143" y="633" width="330" height="207" key="Github.ShareDialog" timestamp="1596500221910">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
     <state x="1143" y="633" width="330" height="207" key="Github.ShareDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500221910" />
-    <state width="1229" height="394" key="GridCell.Tab.0.bottom" timestamp="1596500006517">
+    <state width="909" height="275" key="GridCell.Tab.0.bottom" timestamp="1596523652247">
+      <screen x="56" y="27" width="1864" height="1053" />
+    </state>
+    <state width="909" height="275" key="GridCell.Tab.0.bottom/56.27.1864.1053/2560.0.1920.1080@56.27.1864.1053" timestamp="1596523652247" />
+    <state width="1229" height="394" key="GridCell.Tab.0.bottom/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596514686440" />
+    <state width="909" height="275" key="GridCell.Tab.0.center" timestamp="1596523652246">
+      <screen x="56" y="27" width="1864" height="1053" />
+    </state>
+    <state width="909" height="275" key="GridCell.Tab.0.center/56.27.1864.1053/2560.0.1920.1080@56.27.1864.1053" timestamp="1596523652246" />
+    <state width="1229" height="394" key="GridCell.Tab.0.center/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596514686440" />
+    <state width="909" height="275" key="GridCell.Tab.0.left" timestamp="1596523652246">
+      <screen x="56" y="27" width="1864" height="1053" />
+    </state>
+    <state width="909" height="275" key="GridCell.Tab.0.left/56.27.1864.1053/2560.0.1920.1080@56.27.1864.1053" timestamp="1596523652246" />
+    <state width="1229" height="394" key="GridCell.Tab.0.left/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596514686440" />
+    <state width="909" height="275" key="GridCell.Tab.0.right" timestamp="1596523652247">
+      <screen x="56" y="27" width="1864" height="1053" />
+    </state>
+    <state width="909" height="275" key="GridCell.Tab.0.right/56.27.1864.1053/2560.0.1920.1080@56.27.1864.1053" timestamp="1596523652247" />
+    <state width="1229" height="394" key="GridCell.Tab.0.right/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596514686440" />
+    <state x="939" y="496" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1596502126280">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.bottom/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006517" />
-    <state width="1229" height="394" key="GridCell.Tab.0.center" timestamp="1596500006516">
+    <state x="939" y="496" width="728" height="482" key="MultipleFileMergeDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596502126280" />
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596502187583">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.center/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
-    <state width="1229" height="394" key="GridCell.Tab.0.left" timestamp="1596500006516">
-      <screen x="56" y="27" width="2504" height="1413" />
-    </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.left/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
-    <state width="1229" height="394" key="GridCell.Tab.0.right" timestamp="1596500006516">
-      <screen x="56" y="27" width="2504" height="1413" />
-    </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.right/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
-    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596502048535">
-      <screen x="56" y="27" width="2504" height="1413" />
-    </state>
-    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596502048535" />
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596502187583" />
   </component>
 </project>
