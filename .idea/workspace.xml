@@ -28,8 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36031e14-3c72-4e40-a50f-cd6e55d4b787" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +39,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="t2j0k3ov" />
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596498602390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add readme.md.">
+      <created>1596501173700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596501173700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Add readme.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add readme.md." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596495127575">
@@ -179,9 +188,9 @@
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
     <state width="1229" height="394" key="GridCell.Tab.0.right/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
-    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596500200497">
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596501179764">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500200497" />
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596501179764" />
   </component>
 </project>
