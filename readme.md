@@ -36,5 +36,4 @@ Pretty similar:
 cargo build --release
 ```
 
-###### [How do I use this?]()
 ###### meow

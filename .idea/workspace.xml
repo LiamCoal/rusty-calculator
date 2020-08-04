@@ -27,9 +27,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36031e14-3c72-4e40-a50f-cd6e55d4b787" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="36031e14-3c72-4e40-a50f-cd6e55d4b787" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596501173700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Change readme.md">
+      <created>1596502044383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596502044383</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +166,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add readme.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readme.md." />
+    <MESSAGE value="Change readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change readme.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596495127575">
@@ -188,9 +194,9 @@
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
     <state width="1229" height="394" key="GridCell.Tab.0.right/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
-    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596501179764">
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596502048535">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596501179764" />
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596502048535" />
   </component>
 </project>
