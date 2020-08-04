@@ -15,8 +15,12 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      run: cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
+      - uses: actions/checkout@v2
+      - name: Build
+        run: cargo build --verbose --release
+      - name: Run tests
+        run: cargo test --verbose --release
+      - uses: actions/upload-artifact@v2
+        with:
+          name: artifact
+          path: target/release/rusty-calculator
