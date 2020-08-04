@@ -11,7 +11,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:closure" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -28,9 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36031e14-3c72-4e40-a50f-cd6e55d4b787" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="closure" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -148,6 +147,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -159,6 +159,10 @@
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
     <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596495127575" />
+    <state x="1143" y="633" width="330" height="207" key="Github.ShareDialog" timestamp="1596500221910">
+      <screen x="56" y="27" width="2504" height="1413" />
+    </state>
+    <state x="1143" y="633" width="330" height="207" key="Github.ShareDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500221910" />
     <state width="1229" height="394" key="GridCell.Tab.0.bottom" timestamp="1596500006517">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
@@ -175,5 +179,9 @@
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
     <state width="1229" height="394" key="GridCell.Tab.0.right/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596500200497">
+      <screen x="56" y="27" width="2504" height="1413" />
+    </state>
+    <state x="903" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500200497" />
   </component>
 </project>
