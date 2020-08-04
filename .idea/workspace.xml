@@ -7,7 +7,13 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:closure" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
@@ -23,6 +29,8 @@
   <component name="ChangeListManager">
     <list default="true" id="36031e14-3c72-4e40-a50f-cd6e55d4b787" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +41,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -48,7 +61,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -96,8 +111,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596493933048</updated>
-      <workItem from="1596493934798" duration="4273000" />
+      <workItem from="1596493934798" duration="6149000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1596498602390</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596498602390</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +131,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="closure" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -116,27 +151,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596495127575">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
     <state x="1101" y="546" key="#com.intellij.execution.impl.EditConfigurationsDialog/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596495127575" />
-    <state width="1229" height="394" key="GridCell.Tab.0.bottom" timestamp="1596496511482">
+    <state width="1229" height="394" key="GridCell.Tab.0.bottom" timestamp="1596500006517">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.bottom/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596496511482" />
-    <state width="1229" height="394" key="GridCell.Tab.0.center" timestamp="1596496511481">
+    <state width="1229" height="394" key="GridCell.Tab.0.bottom/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006517" />
+    <state width="1229" height="394" key="GridCell.Tab.0.center" timestamp="1596500006516">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.center/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596496511481" />
-    <state width="1229" height="394" key="GridCell.Tab.0.left" timestamp="1596496511481">
+    <state width="1229" height="394" key="GridCell.Tab.0.center/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
+    <state width="1229" height="394" key="GridCell.Tab.0.left" timestamp="1596500006516">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.left/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596496511481" />
-    <state width="1229" height="394" key="GridCell.Tab.0.right" timestamp="1596496511481">
+    <state width="1229" height="394" key="GridCell.Tab.0.left/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
+    <state width="1229" height="394" key="GridCell.Tab.0.right" timestamp="1596500006516">
       <screen x="56" y="27" width="2504" height="1413" />
     </state>
-    <state width="1229" height="394" key="GridCell.Tab.0.right/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596496511481" />
+    <state width="1229" height="394" key="GridCell.Tab.0.right/56.27.2504.1413/2560.0.1920.1080@56.27.2504.1413" timestamp="1596500006516" />
   </component>
 </project>
