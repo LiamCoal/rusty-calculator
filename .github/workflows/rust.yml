@@ -1,17 +1,12 @@
 name: Rust
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: [push, pull_request]
 
 env:
   CARGO_TERM_COLOR: always
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -22,5 +17,34 @@ jobs:
       run: cargo test --verbose --release
     - uses: actions/upload-artifact@v2
       with:
-        name: artifact
+        name: rusty-calculator-linux
         path: target/release/rusty-calculator
+
+  build-mac:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: cargo build --verbose --release
+      - name: Run tests
+        run: cargo test --verbose --release
+      - uses: actions/upload-artifact@v2
+        with:
+          name: rusty-calculator-macos
+          path: target/release/rusty-calculator
+
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: cargo build --verbose --release
+      - name: Run tests
+        run: cargo test --verbose --release
+      - uses: actions/upload-artifact@v2
+        with:
+          name: rusty-calculator-windows
+          path: target/release/rusty-calculator
+
