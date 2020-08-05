@@ -45,6 +45,6 @@ jobs:
         run: cargo test --verbose --release
       - uses: actions/upload-artifact@v2
         with:
-          name: rusty-calculator-windows
+          name: rusty-calculator-windows.exe
           path: target/release/rusty-calculator.exe
 
