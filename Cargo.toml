@@ -1,6 +1,6 @@
 [package]
 name = "rusty-calculator"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Liam Cole (LiamTheIron)"]
 edition = "2018"
 
@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 colored = "2"
+regex = "1"
+assert_approx_eq = "1.1.0"
