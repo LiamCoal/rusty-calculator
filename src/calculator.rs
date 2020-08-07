@@ -10,12 +10,17 @@ use std::collections::HashMap;
 //static VARIABLES: HashMap<String, f64> = HashMap::new();
 
 fn consume(tokens: &mut Vec<String>, variables: &mut HashMap<String, f64>) -> f64 {
+    if tokens.is_empty() {
+        eprintln!("Invalid Expression");
+        return 0.0;
+    }
     let token = &*tokens.remove(0);
     match token {
         "+" => consume(tokens, variables) + consume(tokens, variables),
         "-" => consume(tokens, variables) - consume(tokens, variables),
         "*" => consume(tokens, variables) * consume(tokens, variables),
         "/" => consume(tokens, variables) / consume(tokens, variables),
+        "**" => consume(tokens, variables).powf(consume(tokens, variables)),
         "=" => {
             let name = tokens.remove(0);
             let c = consume(tokens, variables);
