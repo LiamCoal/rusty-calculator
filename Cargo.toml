@@ -1,6 +1,6 @@
 [package]
 name = "rusty-calculator"
-version = "1.0.3"
+version = "1.0.4"
 authors = ["Liam Cole (LiamTheIron)"]
 edition = "2018"
 
