@@ -12,9 +12,6 @@ These are the things that are supported:
 * Subtraction: `-` or `sub`
 * Multiplication: `*` or `mul` (NOTE: You need to prefix `*` with backslash to get it to work on bash, like this: `\*`)
 * Division: `/` or `div`
-
-These are the things that are planned on:
-
 * Constants like PI or E
 * `sin`, `cos`, `tan`
 * Input
