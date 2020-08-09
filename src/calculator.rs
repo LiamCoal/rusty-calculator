@@ -6,8 +6,8 @@ use std::f64::consts::{PI, E};
 #[allow(unused_imports)] // Unused normally, perfectly ok.
 use assert_approx_eq::assert_approx_eq;
 use std::collections::HashMap;
-
-//static VARIABLES: HashMap<String, f64> = HashMap::new();
+use rand::Rng;
+use regex::Regex;
 
 fn consume(tokens: &mut Vec<String>, variables: &mut HashMap<String, f64>) -> f64 {
     if tokens.is_empty() {
@@ -15,6 +15,7 @@ fn consume(tokens: &mut Vec<String>, variables: &mut HashMap<String, f64>) -> f6
         return 0.0;
     }
     let token = &*tokens.remove(0);
+    let mut rng = rand::thread_rng();
     match token {
         "+" => consume(tokens, variables) + consume(tokens, variables),
         "-" => consume(tokens, variables) - consume(tokens, variables),
@@ -34,14 +35,29 @@ fn consume(tokens: &mut Vec<String>, variables: &mut HashMap<String, f64>) -> f6
         }
         "sin" => consume(tokens, variables).sin(),
         "cos" => consume(tokens, variables).cos(),
+        "tan" => consume(tokens, variables).tan(),
+        "sinh" => consume(tokens, variables).sinh(),
+        "cosh" => consume(tokens, variables).cosh(),
+        "tanh" => consume(tokens, variables).tanh(),
+        "asin" => consume(tokens, variables).asin(),
+        "acos" => consume(tokens, variables).acos(),
+        "atan" => consume(tokens, variables).atan(),
+        "asinh" => consume(tokens, variables).asinh(),
+        "acosh" => consume(tokens, variables).acosh(),
+        "atanh" => consume(tokens, variables).atanh(),
+        "abs" => consume(tokens, variables).abs(),
+        "rand" => rng.gen(),
+        "randr" => rng.gen_range(consume(tokens, variables), consume(tokens, variables)),
         "pi" => PI,
         "e" => E,
         _ => {
             if variables.contains_key(token) {
                 *variables.get(token).unwrap()
-            } else {
+            }
+            else if Regex::new(r"^[0-9.]+$").unwrap().is_match(token) {
                 f64::from_str(token).unwrap()
             }
+            else { 0.0 }
         },
     }
 }
